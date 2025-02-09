@@ -17,6 +17,7 @@ This fork improves video quality using **GFPGAN**, enhancing facial details in g
 ### Download Pretrained Models:
 #### mkdir -p checkpoints
 #### wget -P checkpoints https://www.iiitvadodara.ac.in/pretrained_models/wav2lip_gan.pth
+#### wget https://github.com/TencentARC/GFPGAN/releases/download/v1.3.0/GFPGANv1.3.pth -P experiments/pretrained_models!
 
 ### Run Video Lip-Sync & Enhancement:
 #### python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth \
