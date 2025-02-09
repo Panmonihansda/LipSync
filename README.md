@@ -34,6 +34,12 @@ Changes in this fork:
 #### from IPython.display import Video
 #### Video("results/result_voice_enhanced.mp4")
 
+## 📌 Requirements
+```bash
+pip install torch torchvision torchaudio
+pip install opencv-python numpy scipy librosa soundfile
+pip install git+https://github.com/TencentARC/GFPGAN.git
+
 
 
 
