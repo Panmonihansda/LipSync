@@ -15,3 +15,6 @@ This fork improves video quality using **GFPGAN**, enhancing facial details in g
 pip install torch torchvision torchaudio
 pip install opencv-python numpy scipy librosa soundfile
 pip install git+https://github.com/TencentARC/GFPGAN.git
+
+
+# HOW TO RUN 
