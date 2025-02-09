@@ -10,11 +10,13 @@ This fork improves video quality using **GFPGAN**, enhancing facial details in g
   - `rescaleFactor = 3` (Enhances resolution scaling)
   - `use_hd_model = True` (Uses high-definition GAN model for better lip-sync accuracy)
 
-## 📌 Requirements
-```bash
-pip install torch torchvision torchaudio
-pip install opencv-python numpy scipy librosa soundfile
-pip install git+https://github.com/TencentARC/GFPGAN.git
+## HOW TO RUN:
+### git clone https://github.com/your-username/Wav2Lip.git
+### cd Wav2Lip
+
+
+
+
 
 
 
