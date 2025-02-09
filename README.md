@@ -23,6 +23,10 @@ This fork improves video quality using **GFPGAN**, enhancing facial details in g
 #### --face sample_data/input_vid.mp4 --audio sample_data/input_audio.wav \
 #### --pads 0 10 0 0 --resize_factor 3 --nosmooth
 
+Changes in this fork:
+--resize_factor 3 → Increases resolution scaling for better clarity.
+--checkpoint_path checkpoints/wav2lip_gan.pth → Uses HD model for better accuracy
+
 
 
 
