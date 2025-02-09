@@ -11,8 +11,20 @@ This fork improves video quality using **GFPGAN**, enhancing facial details in g
   - `use_hd_model = True` (Uses high-definition GAN model for better lip-sync accuracy)
 
 ## HOW TO RUN:
-### git clone https://github.com/Panmonihansda/Wav2Lip.git
-### cd Wav2Lip
+#### git clone https://github.com/Panmonihansda/Wav2Lip.git
+#### cd Wav2Lip
+
+### Download Pretrained Models:
+#### mkdir -p checkpoints
+#### wget -P checkpoints https://www.iiitvadodara.ac.in/pretrained_models/wav2lip_gan.pth
+
+### Run Video Lip-Sync & Enhancement:
+#### python inference.py --checkpoint_path checkpoints/wav2lip_gan.pth \
+#### --face sample_data/input_vid.mp4 --audio sample_data/input_audio.wav \
+#### --pads 0 10 0 0 --resize_factor 3 --nosmooth
+
+
+
 
 
 
