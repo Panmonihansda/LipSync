@@ -27,6 +27,16 @@ Changes in this fork:
 --resize_factor 3 → Increases resolution scaling for better clarity.
 --checkpoint_path checkpoints/wav2lip_gan.pth → Uses HD model for better accuracy
 
+### Enhance the Output Video using GFPGAN (Optional but Recommended):
+#### python enhance_video.py --input results/result_voice.mp4 --output results/result_voice_enhanced.mp4
+
+### Preview the Final Video:
+#### from IPython.display import Video
+#### Video("results/result_voice_enhanced.mp4")
+
+
+
+
 
 
 
