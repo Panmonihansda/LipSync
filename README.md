@@ -17,4 +17,4 @@ pip install opencv-python numpy scipy librosa soundfile
 pip install git+https://github.com/TencentARC/GFPGAN.git
 
 
-# HOW TO RUN 
+
